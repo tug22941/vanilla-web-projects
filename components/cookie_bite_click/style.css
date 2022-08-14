@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-color: #EDBD5B;
+}
+
+#cookie-monster{
+    width:25%;
+    position:fixed;
+    bottom:0;
+    margin-left: 38%;
+}
+
+.cookie-whole{
+    background-image: url("Images/cookie.png");
+    height: 100%;
+    width:100%;
+}
+
+.cookie-bite{
+    background-image: url("Images/cookie_bite.png");
+    height: 90%;
+    width:90%;
+}
+
+.cookie{
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+.cookie:hover{
+    cursor: pointer;
+}
+
+.active{
+display: none;
+}
+
+/*placement of cookie on page*/
+.cookie-jar{
+    box-sizing: border-box;
+    height:400px;
+    width:400px;
+    margin:10% auto;
+}

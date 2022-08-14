@@ -1,0 +1,16 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    background-color: cornflowerblue;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    width:1300px;
+    height: 900px;
+    margin: 3%;
+}

@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: peachpuff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+
+#circle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 100px;
+    color:white;
+    border:1px solid rgb(145, 97, 105);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.hover{
+    transform: scale(2);
+}

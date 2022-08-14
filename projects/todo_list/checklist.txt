@@ -1,0 +1,38 @@
+*DYN = (Dynamically Created) in JS
+
+PURPOSE
+- The purpose of this project is to create a to-do list that allows the user to keep track of their activites
+within local storage.
+
+FEATURES
+- I want to be able to create new to-do items
+- I want my created to-do items to be displayed in a list (stack) of items
+- I want to be able to mark a to-do item as completed on the list
+- I want to be able to remove a to-do item from the list
+- I want to save my todo list items value to local storage and redisplay list on page reload
+- I want to delete todo items value from local storage and redisplay list upon page reload
+
+PROCESS
+    1. Create todo list user interface
+        text input and submit button for creating new to-do items
+    2. Create todo list
+        user list to hold created to-do items in a list
+        DYN- div to hold created to-do list item w/ completed and delete buttons in a single container
+    3. Create functionalaity for completed button
+        when clicked:
+            the complete button will add complete animation to targeted list item
+    4. Create functionalaity for delete button
+        when clicked:
+            the trash button will add fall animation to targeted list item
+            the trash button will remove targeted list item
+    5. Create a functionalaity for select drop-down that filters to-do items
+        when selected:
+            display only to-do items of certain type: All, Completed, Uncomplted
+    6. Create functionality that adds to-do list items value to local storage
+            retrieve exsisting todo item list array from local storage or create new todo array
+            push newly created todo list item into array
+            return new todo list items array to local storage
+    7. Create functionalaity that removes to-do list items value from local storage
+            retrieve exsisting todo item list array from local storage or create new todo array
+            remove exsisting list items from array by index
+        
