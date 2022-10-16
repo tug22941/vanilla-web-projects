@@ -1,0 +1,17 @@
+STEP 1: BUILD USER INTERFACE
+- background
+    -title
+    -turn display
+    -gameboard
+        : gametile (9)
+    - endgame display
+    - controls
+        :reset button
+
+STEP 2: ADD CSS STYLING
+    *, background, title, turn display, hide, gameboard, 
+    gametile, x-icon, o-icon, controls, restart
+
+STEP 3: Write JS
+ 1) Add event listener to window object for 'DOMContentLoaded'
+ 2)
